@@ -1,28 +1,184 @@
-﻿<!DOCTYPE html>
-<html>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+﻿<html lang="ru">
+<meta charset="UTF-8">
+<link rel="stylesheet" href="css\style.css" type="text/css">
+<link rel="stylesheet" href="css\media-queries.css" type="text/css">
+<link rel="stylesheet" href="css\slider.css" type="text/css">
+<link rel="stylesheet" href="css\slider3.css" type="text/css">
+<link rel="stylesheet" href="css\slider2.css" type="text/css">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.bundle.min.js"></script>
+
 <head>
-<title>Форма обратной связи на PHP с отправкой на почту</title>
+
 </head>
 <body>
-  <h2>Форма обратной связи на PHP</h2>
-  <!--Данные введенные пользователем обрабатываются кодом в mail.php-->
-  <form action="//formspree.io/eclpsrwork@gmail.com" method="post">
-  <fieldset>
-  <legend>Оставьте сообщение:</legend>
-  Ваше имя: 
-  <input type="text" class="form-control" id="exampleInputName2" name="name" >
-  E-mail:
-  <input type="email" class="form-control" id="exampleInputEmail2" name="email">
-  Номер телефона:
-  <input type="text" name="phone">
-  Сообщение:
-  <!--Тег разрешает многострочный ввод текста.-->
-    Текстовая область может содержать неограниченное количество символов-->
-  <textarea rows="10" cols="45" name="message"></textarea>
-  <!--Устанавливает кнопку для отправки данных формы в обработчик формы.-->
-  <input type="submit" class="btn btn-default" value="Отправить сообщение">
-  </fieldset>
-  </form>
+
+<div class="wrapper">
+
+<div class="header"> 
+<p class="htext1">230105, Инженер-программист</p>
+<p class="htext2">Артём Решетников</p>
+<img src="img/header-left.jpg" class="header_img" height="672" width="552">
+<div class="headblock"><p class="htext3">Привет мир! Я выпускник Северо-Восточного Федерального Университета Я люблю автомобили, активный отдых и компьютерные игры. Моя цель: найти работу по специальности и развиваться в данном направлении. </p></div>
+</div>
+
+<div class="content">
+<p class="contentheadtext">Ожидание от Яндекс-Школы</p>
+
+<div class="content_head">
+<div class="content_head_big_up"> <p class="content_head_caption"> Свобода </p>
+<p class="content_text ctext1"> Разработка медиаплана, анализируя результаты рекламной кампании, нейтрализует эмпирический портрет потребителя.</p>
+</div>
+<div class="content_head_small_up"> <p class="content_head_caption"> Равенство </p>
+<p class="content_text ctext2"> Медиапланирование концентрирует пресс-клиппинг </p>
+</div> 
+<div class="content_head_small_down"> <p class="content_head_caption"> Братство </p>
+<p class="content_text ctext3">Тем не менее, создание приверженного покупателя конструктивно </p>
+</div> 
+<div class="content_head_big_down"> <p class="content_head_caption"> Трудоустройство </p>
+<p class="content_text ctext4">Корпоративная культура без оглядки на авторитеты решительно отражает рекламоноситель. </p>
+</div>  
+</div>
+
+<p class="contentheadtext">Мои увлечения</p>
+<div class="content_main">
+
+<div class="content1"> 
+<div class="content_image"> 
+    <div class="all"> <!-- слайдер1 начало -->
+		<input checked type="radio" name="respond" id="desktop">
+			<article id="slider">
+					<input checked type="radio" name="slider" id="switch1">
+					<input type="radio" name="slider" id="switch2">
+					<input type="radio" name="slider" id="switch3">
+		
+				<div id="slides">
+					<div id="overflow">
+						<div class="image">
+							<article><img src="1.jpg"></article>
+							<article><img src="2.jpg"></article>
+							<article><img src="3.jpg"></article>
+						</div>
+					</div>
+				</div>
+				
+						<div id="active">
+					<label for="switch1"></label>
+					<label for="switch2"></label>
+					<label for="switch3"></label>
+				</div>
+			</article>
+	</div> <!-- слайдер1 конец -->
+</div>
+<div class="content_content"> 
+<p class="content_text1"> Моды и шляпы </p>
+<a href="http://lamoda.ru" class="content_url" target="_blank">lamoda.ru</a>
+<p class="content_text2"> Межзвездная матеpия на следующий год, когда было лунное затмение и сгорел древний храм Афины в Афинах (при эфоре Питии и афинском архонте Каллии), многопланово перечеркивает ионный хвост.</p>
+</div>
+</div>
+
+<div class="content2"> 
+<div class="content_content coniml"> 
+<p class="content_text1"> Моды и шляпы</p>
+<a href="http://lamoda.ru" class="content_url" target="_blank">lamoda.ru</a>
+<p class="content_text2"> Межзвездная матеpия на следующий год, когда было лунное затмение и сгорел древний храм Афины в Афинах (при эфоре Питии и афинском архонте Каллии), многопланово перечеркивает ионный хвост.</p>
+</div>
+<div class="content_image conimr"> 
+<div class="all2"> <!-- слайдер2 начало -->
+		<input checked type="radio" name="respond2" id="desktop2">
+			<article id="slider2">
+					<input checked type="radio" name="slider2" id="switch4">
+					<input type="radio" name="slider2" id="switch5">
+					<input type="radio" name="slider2" id="switch6">
+					<input type="radio" name="slider2" id="switch7">
+		
+				<div id="slides2">
+					<div id="overflow2">
+						<div class="image2">
+							<article><img src="1.jpg"></article>
+							<article><img src="2.jpg"></article>
+							<article><img src="3.jpg"></article>
+							<article><img src="4.jpg"></article>
+						</div>
+					</div>
+				</div>
+				
+						<div id="active2">
+					<label class="l2" for="switch4"></label>
+					<label class="l2" for="switch5"></label>
+					<label class="l2" for="switch6"></label>
+					<label class="l2" for="switch7"></label>
+				</div>
+			</article>
+	</div> <!-- слайдер2 конец -->
+ </div>
+ </div>
+
+<div class="content3"> 
+<div class="content_image">
+<div class="all3"> <!-- слайдер3 начало -->
+		<input checked type="radio" name="respond3" id="desktop3">
+			<article id="slider3">
+					<input checked type="radio" name="slider3" id="switch8">
+					<input type="radio" name="slider3" id="switch9">
+		
+				<div id="slides3">
+					<div id="overflow3">
+						<div class="image3">
+							<article><img src="1.jpg"></article>
+							<article><img src="2.jpg"></article>
+						</div>
+					</div>
+				</div>
+				
+						<div id="active3">
+					<label class="l3" for="switch8"></label>
+					<label class="l3" for="switch9"></label>
+				</div>
+			</article>
+	</div> <!-- слайдер3 конец -->
+ </div> 
+
+<div class="content_content"> 
+<p class="content_text1"> Моды и шляпы</p>
+<a href="http://lamoda.ru" class="content_url" target="_blank">lamoda.ru</a>
+<p class="content_text2"> Межзвездная матеpия на следующий год, когда было лунное затмение и сгорел древний храм Афины в Афинах (при эфоре Питии и афинском архонте Каллии), многопланово перечеркивает ионный хвост.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="footer">
+<p class="footer_head"> Контактная информация </p>
+<div class="footer_left"> 
+<p class="footer_text">Я открыт для новых проектов. Вы можете прислать мне для оценки примерное техническое задание или просто описание проекта своими словами.</p>
+<div class="footer_links"> 
+<p class="links_head">Ссылки на мои соцсети:</p>
+<div class="links"> 
+<a href="http://facebook.com" id="link" target="_blank">Facebook</a><br>
+<a href="http://vk.com" id="link" target="_blank">ВКонтакте</a><br>
+<a href="http://GitHub.com" id="link" target="_blank">GitHub</a><br>
+<a href="http://Twitter.com" id="link" target="_blank">Twitter</a>
+</div>
+</div>
+</div>
+<form class="footer_form" action="//formspree.io/eclpsrwork@gmail.com" method="post">
+<!-- <input type="text" id="name" placeholder="ФИО"><br> -->
+<input type="text" class="form-control" id="exampleInputName2" name="name" placeholder="Ваше имя"><br>
+<!-- <input type="text" id="e-mail" placeholder="Почтовый ящик"><br> -->
+<input type="email" class="form-control" id="exampleInputEmail2" name="email" placeholder="Почтовый ящик"><br>
+
+<!-- <textarea type="text" id="text" placeholder="Сообщение"></textarea><br> -->
+<textarea rows="10" cols="45" name="message" id="text" placeholder="Сообщение"></textarea>
+<a id="TZ"> Прикрепить ТЗ </a><br>
+<!-- <button type="button" id="button">Отправить</button> -->
+<input type="submit" class="btn btn-default" value="Отправить" id="button">
+</form>
+</div>
+</div>
+</div>
+</div>
+
+
 </body>
 </html>
