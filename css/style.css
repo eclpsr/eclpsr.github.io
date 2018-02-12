@@ -328,14 +328,28 @@ font-size: 16px;
 color: #FFFFFF;
 line-height: 24px;
 }
+.footer_form #TZ_BLOCK{
+	width: 300px;
+	height: 20px;
+}
 .footer_form #TZ{
-width: 200px;
-height: 16px;
+width: 150px;
+height: 20px;
 margin-top: 16px;
 font-family: Helvetica-Bold;
 font-size: 16px;
 color: #DD3E18;
 line-height: 24px;
+float:left;
+margin-left: 11px;
+}
+.footer_form #docimg {
+float:left;
+margin-top: 16px;
+}
+.links #square{
+margin-right: 12px;
+float:left;
 }
 .links #link{
 font-family: Georgia;
