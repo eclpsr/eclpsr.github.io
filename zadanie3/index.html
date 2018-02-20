@@ -1,0 +1,28 @@
+<html lang="ru">
+<meta charset="UTF-8">
+<link rel="stylesheet" href="css\style.css" type="text/css">
+
+<head>
+    <title>ШРИ 3</title>
+    <meta name="viewport" content="initial-scale=1.0">
+	
+</head>
+
+<body>
+
+    <div id="map"></div>
+	<script src="game.js"></script>
+    </script>
+	
+	
+	<script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCqcdWyPsUrnHkSiY2XUD9zKev_CYUVkXo&callback=initMap">
+    </script>
+</body>
+<footer>
+	<input id="address" type="text" placeholder="Пишите город сюда" class="text"><br>
+	<input type="submit" id="submit" OnClick="player();" value="Отправить" class="text">
+	<input type="submit" id="end" OnClick="endgame();" value="Закончить игру" class="text"><br> 
+	<p>Вывод:  <output rows="10" cols="45" name="message" id="output" class="text"> </output></p>
+</footer>
+</html>
