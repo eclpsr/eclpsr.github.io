@@ -1,9 +1,9 @@
 const cacheName = "DefaultCompany-valentine-1.0";
 const contentToCache = [
     "Build/valentine.loader.js",
-    "Build/valentine.framework.js.gz",
-    "Build/valentine.data.gz",
-    "Build/valentine.wasm.gz",
+    "Build/valentine.framework.js",
+    "Build/valentine.data",
+    "Build/valentine.wasm",
     "TemplateData/style.css"
 
 ];
